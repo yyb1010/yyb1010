@@ -1,1151 +1,1156 @@
-- 👋 Hi, I’m @yyb1010
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-yyb1010/yyb1010 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<body id="nv_forum" class="pg_index" onkeydown="if(event.keyCode==27) return false;">
-
-
-
-<div id="append_parent"></div><div id="ajaxwaitid"></div>
-
-
-<div class="cl klp_hdlogin disnone">
-
-<link rel="stylesheet" type="text/css" href="source/plugin/tshuz_sign/static/common.css">
-<div class="cl klp_ywkd">
-
-<div class="y"><div class="klp_hdguest">
-    <span class="pipe">|</span><a href="plugin.php?id=tshuz_sign" onclick="showWindow('tshuz_sign', this.href+'&amp;mod=sign&amp;formhash=fa314068')" class="usernav_sign" style="background-color:#91cd53">未打卡</a> <!-- klp/denglu --><a href="member.php?mod=logging&amp;action=login" rel="nofollow"><span>会员登录</span></a>
-<a href="member.php?mod=register" rel="nofollow"><span>立即注册</span></a>
-</div>
-
-</div>
-<div class="klp_hdunv">
-<a href="javascript:;" rel="nofollow" class="shouye" onclick="setHomepage('');"><span>设为首页</span></a>
-        <a href="" onclick="addFavorite(this.href, '真牛论坛');return false;" class="klp_shoucang">加入收藏</a>
-
-        	<div id="klp_hdnvweixin">
-        		<p>微信扫一扫</p>
-        <img src="template/klp_zhengfu012/klp_img/ico_weixin.png" width="150" height="150">        	</div>
-        
-        <a href="javascript:;" rel="nofollow" id="sslct" class="fengge" onmouseover="delayShow(this, function() {showMenu({'ctrlid':'sslct','pos':'34!'})});">风格切换</a>
-<div id="sslct_menu" class="cl p_pop" style="display: none;">
-<span class="sslct_btn" onclick="extstyle('')" title="默认"><i></i></span><span class="sslct_btn" onclick="extstyle('./template/klp_zhengfu012/style/t2')" title="青"><i style="background:#429296"></i></span>
-<span class="sslct_btn" onclick="extstyle('./template/klp_zhengfu012/style/t6')" title="红"><i style="background:#BA350F"></i></span>
-<span class="sslct_btn" onclick="extstyle('./template/klp_zhengfu012/style/t1')" title="默认蓝色"><i style="background:#2e80d1"></i></span>
-<span class="sslct_btn" onclick="extstyle('./template/klp_zhengfu012/style/t3')" title="橙"><i style="background:#FE9500"></i></span>
-<span class="sslct_btn" onclick="extstyle('./template/klp_zhengfu012/style/t5')" title="绿"><i style="background:#018248"></i></span>
-<span class="sslct_btn" onclick="extstyle('./template/klp_zhengfu012/style/t4')" title="紫"><i style="background:#9934B7"></i></span>
-</div>
- 
-</div>
-</div>
-
-</div>
-
-
-
-
-
-<div id="qmenu_menu" class="p_pop blk" style="margin-top: 13px;display: none;">
-<div class="ptm pbw hm">
-请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br>没有账号？<a href="member.php?mod=register" class="xi2 xw1">立即注册</a>
-</div>
-<div id="fjump_menu" class="btda"></div></div><div id="hd" class="">
-
-
-
-<div class="klp_header disnone"><div class="logo">
-
-<a href="./" title="真牛论坛"><img src="template/klp_zhengfu012/klp_img/logo.png" alt="真牛论坛" border="0"></a>
-
-</div>
-
-<div class="search_form">
-
-
-
-<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">					
-
-<input type="text" class="keyword xg1" onblur="if(this.value=='')this.value='请输入关键字'" onfocus="if(this.value=='请输入关键字')this.value=''" value="请输入关键字" name="srchtxt" id="scbar_txt" placeholder="请输入搜索内容">
-
-
-
-<button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="submitbtn" value="true">搜索</button>
-
-</form>
-
-
-
-</div>
-
-</div>
-
-<div class="wp klp_nv">
-
-<div id="nv_ph" style=""><div id="nv" class="disnone" style="top: 0px; left: 668.5px; z-index: 199;">
-
-
-
-<ul><li class="a" id="mn_forum"><a href="forum.php" hidefocus="true" title="BBS">论坛首页<span>BBS</span></a></li><li id="mn_N06ec"><a href="/thread-664378-1-1.html" hidefocus="true" target="_blank">广告合作</a></li><li id="mn_Na328"><a href="/thread-667695-1-1.html" hidefocus="true" target="_blank">win7影子</a></li><li id="mn_N9632"><a href="/thread-1103500-1-1.html" hidefocus="true" target="_blank">win10影子</a></li><li id="mn_Nb474"><a href="/thread-1186889-1-1.html" hidefocus="true" target="_blank">win11影子</a></li><li id="mn_N32e9"><a href="/thread-1122445-1-1.html" hidefocus="true" target="_blank" style="font-weight: bold;color: yellow">找回账号密码</a></li><li id="mn_N0a2c"><a href="misc.php?mod=faq" hidefocus="true" title="Help">寻求帮助<span>Help</span></a></li><li id="mn_N6c5c"><a href="/thread-1126533-1-1.html" hidefocus="true" target="_blank" style="font-weight: bold;color: orange">官方QQ群</a></li><li id="mn_N7f3f"><a href="/thread-1165962-1-1.html" hidefocus="true" target="_blank">购邀请码</a></li><li id="mn_Nadf2"><a href="https://www.zhenniu.biz/" hidefocus="true" target="_blank" style="color: red">永久更新页收藏</a></li>
-</ul>
-
-
-</div></div>
-
-</div>
-
-<div class="wp klp_popnv">
-
-
-
-<div id="mu" class="cl">
-
-
-</div><div class="a_mu"><span><a rel="nofollow" href="https://xq.61hk.cn/?zn" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202404/10/145235k7zef6eg05eerffh.gif" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://yc.85wn.cn/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202401/13/212848llhm175glly6z7m7.gif" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-<span><a rel="nofollow" href="https://www.niuwa4.com/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202402/19/114717ctxvl5193eityrti.png" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://kl658b.cc/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202211/16/175451e3xqq9zy35hmfqbn.gif" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table><span><a rel="nofollow" href="https://w.jfxwz.com" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202309/03/170209y3u339qq96ej4hqf.gif" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://www.sxg678.cc/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202405/14/105547q55fqy5rrfyzfus5.gif" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-<span><a rel="nofollow" href="https://www.dubuzy.cc/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202406/04/174357t2tz5fjauicqxzcj.gif" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://www.xiaoyanfz.xyz/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202405/10/155850njs2gwssosjfg2sw.gif" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-
-<span><a rel="nofollow" href="https://www.yxyjdz.xyz/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202402/16/121259a6ggcfj1wp65ypaz.jpg" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://www.henghost.com/2024618.shtml?s=zz&amp;zn502" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202406/03/112210frdp0k2kzwbtcar2.gif" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-<span><a rel="nofollow" href="http://lbzywm.xyz/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202404/02/100007yobcmcbv4sbyawos.png" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://www.akfzw.biz/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202405/11/211219ffnigxi312g2xmng.png" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-<span><a rel="nofollow" href="https://www.zhenniu.biz" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202304/21/102201wzj47fx1hpcnrxxq.jpg" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://flowus.cn/share/c47b9701-7461-4a5f-bee3-8f264b27e004?code=59FTHF" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202310/12/203516ob80ccnzoidvavee.png" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-<span><a rel="nofollow" href="http://266km.top/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202312/26/141352srwjewne2rrrn33f.gif" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://wwh.8ssg.com/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202311/27/185144wgdd33ezu47fqg4c.gif" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table>
-<span><a rel="nofollow" href="http://taijibo.cc/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202406/02/062504xvv5n7w65c5q67pv.png" width="593" height="70" style="margin: 2px;"></a></span><span><a rel="nofollow" href="https://69dkm.com/" target="_blank"><img rel="nofollow" src="/data/attachment/forum/202405/12/210248nb6g6cr1lfgz1wgv.jpg" width="593" height="70" style="margin: 2px;"></a></span><table><tbody><tr>
-
-
-</tr></tbody></table></div></div>
-
-</div>
-
-
-
-<link rel="stylesheet" type="text/css" href="source/plugin/iplus_gezi/images/style1.css">
-<style>
-.GzList ul li {
-    width:20.000%;
-}
-</style>
-<div class="wp cl">
-<div class="GzList" style="margin-top:10px;">
-    
-    <ul class="hover">
-<li><a rel="nofollow" href="http://www.lolfz.cn" target="_blank" style="color:#0000FF;">【站长推荐】全网辅助最低价</a></li>
-
-<li><a rel="nofollow" href="http://www.taiwanqudong.top" target="_blank" style="color:#FF0000;">CF显卡透瞄漏打/AI范围追踪雷达U盘</a></li>
-
-<li><a rel="nofollow" href="http://yunyun.vwoq.cn" target="_blank" style="color:#0000FF;">各类游戏稳定辅助及小号</a></li>
-
-<li><a rel="nofollow" href="https://ys.hcy.red/" target="_blank" style="color:#009900;">Steam-黑号-游戏激活码-二手辅助</a></li>
-
-<li><a rel="nofollow" href="https://shop.947ka.com/links/D4182492?dev=1&amp;theme_id=1" target="_blank" style="color:#009900;">CF LOL 无畏契约 低价 黒\\\号辅助</a></li>
-
-<li><a rel="nofollow" href="https://link3.cc/dygzs" target="_blank" style="color:#FF00FF;">[全网最全最猛哄炸机] 纯电+短+电</a></li>
-
-<li><a rel="nofollow" href="https://xiandao02.com" target="_blank" style="color:#0000FF;">【真正低价卡盟】不玩虚的 价格随意</a></li>
-
-<li><a rel="nofollow" href="http://www.88sqkw.com" target="_blank" style="color:#0000FF;">【每一张卡密只赚一毛钱】</a></li>
-
-<li><a rel="nofollow" href="https://project-potatos.com/" target="_blank" style="color:#FF00FF;">游戏通用DMA硬件软件APEX稳定内部</a></li>
-
-<li><a rel="nofollow" href="https://yw.hefaka.com/" target="_blank" style="color:#FF0000;">余温小店铺-低价辅助-极品百V嘿号</a></li>
-
-<li><a rel="nofollow" href="https://fk.99999fk.net/links/81324602" target="_blank" style="color:#FF0000;">【永劫无间】稳定大号高端定制辅助</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DZURHdkdaSkRoUkFX" target="_blank" style="color:#009933;">打电活一小时500 打完秒结</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DWFdYZmVFa0t5UW9J" target="_blank" style="color:#0000FF;">全网最高端莆田潮鞋-潮服-名表代发</a></li>
-
-<li><a rel="nofollow" href="https://ys.hcy.red/" target="_blank" style="color:#009900;">PUBG 吃鸡 低价 排位号 外挂</a></li>
-
-<li><a rel="nofollow" href="https://link3.cc/fuzhu " target="_blank" style="color:#0000FF;">【英雄联盟】全网最低价稳定辅助</a></li>
-
-<li><a rel="nofollow" href="https://www.101555club.cn/links/9C3969F3" target="_blank" style="color:#FF0000;">MI老屋-CF科技-售后NO.1</a></li>
-
-<li><a rel="nofollow" href="http://de84rgyk33543jv9.mikecrm.com/TQ2kJO8" target="_blank" style="color:#0000FF;">V账密稳定续租 180</a></li>
-
-<li><a rel="nofollow" href="https://www.jnzyw.com/?id=31" target="_blank" style="color:#FF0000;">冰雪归来.长期搬砖扛米.日入100-200</a></li>
-
-<li><a rel="nofollow" href="https://www.jnzyw.com/?id=31" target="_blank" style="color:#FF0000;">冰雪归来.长期搬砖扛米.日入100-200</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DU2xwdVdXRVBlRUJR" target="_blank" style="color:#FF00FF;">饿了么每天领5~20元无门槛红包</a></li>
-
-<li><a rel="nofollow" href="https://store.opop2024.com/links/64F5DDE8" target="_blank" style="color:#0000FF;">全网独家王者免r 内部稳定项目</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DYUNWREN1Q0d5aUN4" target="_blank" style="color:#FF0000;">风口线上两部手鸡办公日入1000</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DU2JiQXFoVGhoRU1K" target="_blank" style="color:#0000FF;">王者荣耀雷电逍遥腾讯模拟器辅助</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/aio/DZW56QlVHeWtJdUpO" target="_blank" style="color:#0000FF;">【CF白名单无视黑屋】/DMA全套</a></li>
-
-<li><a rel="nofollow" href="https://fuoosj.cfcrobstown.com/?zuiliununt" target="_blank" style="color:#0000FF;">AI一键图片去依|图片换脸</a></li>
-
-<li><a rel="nofollow" href="http://wap.e26.top/?post=5" target="_blank" style="color:#0000FF;">正规实操项目日入500+</a></li>
-
-<li><a rel="nofollow" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=Y9gOgodc00e-NqePJnvx9mFe9wbOGaUu&amp;authKey=RZlQ2h5jK94ENi8dX0olV2d6R1yGq6ksvQPJCi2kjzhkwUJiznRaiFvGdIFEnyZT&amp;noverify=0&amp;group_code=931702611" target="_blank" style="color:#0000FF;">【推荐】PUBG-DMA软件进群免费用</a></li>
-
-<li><a rel="nofollow" href="https://www.101555club.cn//links/ADF66EA0" target="_blank" style="color:#0000FF;">全网辅助黑号亏本卖</a></li>
-
-<li><a rel="nofollow" href="http://www.nienie502.cc/links/571E5320" target="_blank" style="color:#FF0000;">暗黑2-D4最后纪元cf制胜辅助</a></li>
-
-<li><a rel="nofollow" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=Fp-Qc05Tz1CU66vE0JQ4r853vAi3D-xg&amp;authKey=JxxYSeBddVzIOeP2hpbyclaVZMdp2JjIZ6AP09ubfUGa6sPjBFgfWSJGrweL6L9b&amp;noverify=0&amp;group_code=931106724" target="_blank" style="color:#0000FF;">全游戏DMA软件固件稳定大号</a></li>
-
-<li><a rel="nofollow" href="http://mmq.red/" target="_blank" style="color:#FF0000;">破解福利软件库</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DTFJPVGJHblBEd3hP" target="_blank" style="color:#0000FF;">块手挂语音室 捡钱项目</a></li>
-
-<li><a rel="nofollow" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=EnzvMMi93T0OMJJtxJFHVj8WVCHtDeeu&amp;authKey=4uZY7fop8Eo%2FQDzWGYpQinohqpcO1pnd3mQKVCCdwHfZs9HjdRh7w3kAX8%2BVFMmU&amp;noverify=0&amp;group_code=664716174" target="_blank" style="color:#FF0000;">V信附近人挂圈30~50每小时盘口招</a></li>
-
-<li><a rel="nofollow" href="https://ys.hcy.red/" target="_blank" style="color:#009900;">Apex 超低价 黑号 外挂 猎杀</a></li>
-
-<li><a rel="nofollow" href="http://299km.cn" target="_blank" style="color:#FF0000;">266租号小铺-联盟/穿越各类黑号</a></li>
-
-<li><a rel="nofollow" href="https://docs.qq.com/doc/DTGpTQkFvSmV4Q1dv" target="_blank" style="color:#0000FF;">大量组抖音号日结100+正规绿色不封</a></li>
-
-<li><a rel="nofollow" href="https://xgtv00012.boats/gzh34" target="_blank" style="color:#FF00FF;">人手一星球 追剧真上头</a></li>
-
-<li><a rel="nofollow" href="https://xgtv00012.boats/gzh34" target="_blank" style="color:#FF00FF;">人手一星球 追剧真上头</a></li>
-
-<li><a rel="nofollow" href="https://fk.99999fk.net/links/37AD22F4" target="_blank" style="color:#FF0000;">【永劫无间】全网最低 买辅助送黑号</a></li>
-
-<li><a rel="nofollow" href="plugin.php?id=iplus_gezi&amp;op=buy" onclick="showWindow('login', this.href);return false;" style="color:#333333;">文字广告位-预留位置</a></li>
-		
-    </ul>
-    
-</div>
-</div>
-
-
-		<script type="text/javascript" src="./source/plugin/saya_frontjs/sayaquery.js"></script>
-		<script type="text/javascript">sayaQuery.noConflict();</script>
-
-
-
-
-
-
-
-
-
-
-
-<div class="header dismnone"> 
-
-   <div class="klp_con">
-
-       <h1 class="logo"><a href="./" title="真牛论坛"><img src="template/klp_zhengfu012/klp_img/logom.png"></a></h1> 
-
-    <div class="klp_snv"> 
-
-     <ul>
-
- 
-
- <li><a href="forum.php">论坛</a></li>
-<li><a href="/forum.php?mod=guide&amp;view=newthread">今日新帖</a></li>
-<li><a href="plugin.php?id=tshuz_sign">打卡签到</a></li>
- 
+<html><head> 
+  <title>POTATO科技</title> 
+  <meta name="description" content="售后请联系我QQ:644225855  DISCORD:POTATOYYDS#9944"> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="content-language" content="zh-cn"> 
+  <link rel="shortcut icon" href="images/favicon.ico"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+  <link rel="stylesheet" href="assets/css/main.css"> 
+  <noscript> 
+   <link rel="stylesheet" href="assets/css/noscript.css" /> 
+  </noscript>
+ </head> 
+ <body class=""> 
+  <!-- Wrapper --> 
+  <div id="wrapper"> 
+   <!-- Header --> 
+   <header id="header"> 
+    <div class="icon"> 
+     <img src="images/icon-fa-gem.png" alt="POTATO科技" title="POTATO科技" class="logo"> 
+    </div> 
+    <div class="content"> 
+     <div class="inner"> 
+      <h1>POTATO科技</h1> 
+      <p> 如果下面无法访问,请联系discord:POTATOYYDS#9944    QQ:2052678845   微信：lezhi66l
+      诚招代理/作者进行合作销售</p>
+     </div> 
+    </div> 
+    <nav class="use-middle"> 
+     <ul> 
+      <li> <a target="_blank" href="https://1.pay777.love/link/D8C92FF2">自助提卡网站[推荐]</a></li> 
+      <li> <a target="_blank" href="https://potato-game.xyz/#term-3">科技介绍网站</a></li> 
+      <li class="is-middle"> <a target="_blank" href="https://qm.qq.com/q/AVZhQSJBQs">QQ群[开黑]</a></li> 
+      <li> <a target="_blank" href="https://qm.qq.com/q/xOshQMoMLu">诚邀实力作者加入（QQ群）</a></li> 
+      <!--<li><a href="#elements">Elements</a></li>--> 
      </ul> 
+    </nav> 
+   </header> 
+   <!-- Footer --> 
+   <footer id="footer"> 
+    <p class="copyright">您的IP：<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script type="text/javascript">document.write(returnCitySN["cip"])</script>127.0.0.1</p> 
+    <p class="copyright"><script>
+		var mydate = new Date();
+		document.writeln("Copyright&nbsp;&copy;&nbsp;2021 - "+mydate.getFullYear()+'&nbsp;POTATO科技<br />All&nbsp;Rights&nbsp;Reserved');</script>Copyright&nbsp;©&nbsp;2021 - 2024&nbsp;POTATO科技<br>All&nbsp;Rights&nbsp;Reserved
+</p> 
+	<p class="copyright">辅助稳定奔放，完美售后</p> 
+    <p class="copyright"> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2971802058&amp;site=qq&amp;menu=yes"> <img src="images\svg\qq.svg" width="30" alt="QQ" title="QQ">&nbsp;&nbsp;</a> <a target="_blank" href="mailto:suinian666@gmail.com"> <img src="images\svg\mail.svg" width="30" alt="Mail" title="Mail">&nbsp;&nbsp;</a> <a target="_blank" href="/money_receiving_QR_code"> <img src="images\svg\money_receiving_QR_code.svg" width="30" alt="给我打钱" title="给我打钱">&nbsp;&nbsp;</a> <a target="_blank" href="https://github.com/nianbroken"> <img src="images\svg\github.svg" width="30" alt="Github" title="Github">&nbsp;&nbsp;</a> <a target="_blank" href="https://gitee.com/nianbroken"> <img src="images\svg\gitee.svg" width="30" alt="Gitee" title="Gitee">&nbsp;&nbsp;</a> <a target="_blank" href="http://www.coolapk.com/u/1315644"> <img src="images\svg\coolapk.svg" width="30" alt="Coolapk" title="Coolapk"></a> </p> 
+   </footer> 
+  </div> 
+  <canvas id="sakura" style="z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;" width="1997" height="1284"> 
+  </canvas> 
+  <!-- BG --> 
+  <!-- <div id="bg"> --> 
+  <!-- Scripts --> 
+  <script src="assets/js/jquery.min.js"></script> 
+  <script src="assets/js/browser.min.js"></script> 
+  <script src="assets/js/breakpoints.min.js"></script> 
+  <script src="assets/js/util.js"></script> 
+  <script src="assets/js/main.js"></script> 
+  <style>canvas { padding:0; margin:0; }</style> 
+  <!-- sakura shader --> 
+  <script id="sakura_point_vsh" type="x-shader/x_vertex">
+uniform mat4 uProjection;
+uniform mat4 uModelview;
+uniform vec3 uResolution;
+uniform vec3 uOffset;
+uniform vec3 uDOF;  //x:focus distance, y:focus radius, z:max radius
+uniform vec3 uFade; //x:start distance, y:half distance, z:near fade start
 
+attribute vec3 aPosition;
+attribute vec3 aEuler;
+attribute vec2 aMisc; //x:size, y:fade
+
+varying vec3 pposition;
+varying float psize;
+varying float palpha;
+varying float pdist;
+
+//varying mat3 rotMat;
+varying vec3 normX;
+varying vec3 normY;
+varying vec3 normZ;
+varying vec3 normal;
+
+varying float diffuse;
+varying float specular;
+varying float rstop;
+varying float distancefade;
+
+void main(void) {
+    // Projection is based on vertical angle
+    vec4 pos = uModelview * vec4(aPosition + uOffset, 1.0);
+    gl_Position = uProjection * pos;
+    gl_PointSize = aMisc.x * uProjection[1][1] / -pos.z * uResolution.y * 0.5;
     
-
-    </div>  <span class="klp_snvplay"><i class="klp_font_znv"></i></span> <span class="klp_ynvplay"><i class="klp_font_topuser" style="font-size: 25px;"></i></span> 
-
-    <span class="klp_snvbg"></span>
-
-      <div class="loginm"> 
-   <div class="mobile_dlu"> 
-<img src="template/klp_zhengfu012/klp_img/avatar.png" class="avatar" height="128" width="128"> 
-<a href="member.php?mod=logging&amp;action=login" class="mobile_dlu btn klp_login">登录</a> 
-<a href="member.php?mod=register" class="klp_reg btn">新用户注册</a> 
-   </div> 
-  </div>
-  
-<div class="loginnormal">
-<a href="member.php?mod=register" class="btn">注册</a>
-<a href="member.php?mod=logging&amp;action=login" class="btn klp_login" onclick="showWindow('login', this.href)">登录</a>
-</div>
-
-
- 
-
-    <span class="klp_search"><a href="javascript:" class="klp_souplay"><i class="klp_font_sou"></i></a><a href="javascript:" class="klp_souoff"><i class="klp_font_sou"></i></a></span> 
-
-   </div> 
-
-  </div>
-
-   <div class="souh">
-
-<div class="klp_con">
-
+    pposition = pos.xyz;
+    psize = aMisc.x;
+    pdist = length(pos.xyz);
+    palpha = smoothstep(0.0, 1.0, (pdist - 0.1) / uFade.z);
     
-<div id="scbar" class="cl">
-<form id="scbar_form" class="souh_fm" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank" style="margin: 0;">
-<input type="hidden" name="mod" id="scbar_mod" value="search">
-<input type="hidden" name="formhash" value="fa314068">
-<input type="hidden" name="srchtype" value="title">
-<input type="hidden" name="srhfid" value="">
-<input type="hidden" name="srhlocality" value="forum::index">
-        <div class="klp_minput cl">
-<input type="text" class="sou_input" name="srchtxt" id="scbar_txt" placeholder="请输入搜索内容" autocomplete="off" x-webkit-speech="" speech="">
-        </div>
-        <button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="soubtn button-primary" value="true" style="height: 42px;"><i class="klp_font_soutan"></i></button>		
-
-</form>
-</div>
-
-<script type="text/javascript">
-initSearchmenu('scbar', '');
-</script>
-</div>
-
- </div>
-
-<div id="wp" class="wp">
-
-<div class="klp_clear"></div>
-
-
-
-<div class="klp_clear"></div>
-
-<style type="text/css">
-
-</style>
-<div class="klp_bbstop001">
-<div class="klp_zhdp z">
-<!--[diy=klp_hdp]--><div id="klp_hdp" class="area"><div id="frameNfnj7F" class="cl_frame_bm frame move-span cl frame-1"><div id="frameNfnj7F_left" class="column frame-1-c"><div id="frameNfnj7F_left_temp" class="move-span temp"></div><div id="portal_block_68" class="cl_block_bm block move-span"><div id="portal_block_68_content" class="dxb_bc"><div class="swiper-container swiper-container008" style="cursor: -webkit-grab;">
-     <div class="swiper-wrapper" style="width: 1800px; height: 323px; transform: translate3d(-600px, 0px, 0px); transition-duration: 0s;"><div class="swiper-slide" style="width: 600px; height: 323px;"> <a href="https://www.qingyun.biz/" target="_blank" class="pic"><img src="data/attachment/block/80/80c7fdd6aa815011069e94614a75b194.jpg" width="600" height="330"></a> </div><div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 600px; height: 323px;"> <a href="https://www.qingyun.biz/" target="_blank" class="pic"><img src="data/attachment/block/80/80c7fdd6aa815011069e94614a75b194.jpg" width="600" height="330"></a> </div><div class="swiper-slide" style="width: 600px; height: 323px;"> <a href="https://www.qingyun.biz/" target="_blank" class="pic"><img src="data/attachment/block/80/80c7fdd6aa815011069e94614a75b194.jpg" width="600" height="330"></a> </div></div>
-        <div class="swiper-pagination swiper-pagination008"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span></div>
-        <div class="swiper-button-next swiper-button-next008"></div>
-        <div class="swiper-button-prev swiper-button-prev008"></div>
-</div>
-</div></div></div></div></div><!--[/diy]-->
-</div>
-<style type="text/css">
-
-</style>
-  <link rel="stylesheet" href="template/klp_zhengfu012/klp_img/idangerous.swiper.css">
- <script src="template/klp_zhengfu012/klp_img/idangerous.swiper.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-  var mySwiper = new Swiper('.swiper-container008',{
-    pagination: '.swiper-pagination008',
-    loop:true,
-    grabCursor: true,
-    paginationClickable: true,
-   spaceBetween: 30,
-  slidesPerView: 1
-  })
-  jQuery('.swiper-button-prev008').on('click', function(e){
-    e.preventDefault()
-    mySwiper.swipePrev()
-  })
-  jQuery('.swiper-button-next008').on('click', function(e){
-    e.preventDefault()
-    mySwiper.swipeNext()
-  })
-</script>
-<div class="ynews y">
-
-<div id="klp_tabBox_tab_00a2" class="klp_tabBox_tab_00a2  ">
-  <div id="klp_tabBoxHd_tab_00a2" class="klp_hdtx_tab_00a2 ">
-    <span class="type tabs"><a href="javascript:;" class="active">最新</a><a href="javascript:;">热门</a><a href="javascript:;">推荐</a></span>
-  <h3><b>热点推荐</b><ul></ul></h3>
-  </div>
-  <div class="swiper-container swiper-container009">
-  <div id="tabs-container" class="klp_bdtx_tab_00a2 swiper-wrapper" style="width: 1764px; height: 285px;">
-   <div class="klp_tabslide swiper-slide swiper-slide-visible swiper-slide-active" style="width: 588px; height: 285px;">
-    <ul>
-<!--[diy=klp_tab01]--><div id="klp_tab01" class="area"><div id="frameC12lDJ" class="cl_frame_bm frame move-span cl frame-1"><div id="frameC12lDJ_left" class="column frame-1-c"><div id="frameC12lDJ_left_temp" class="move-span temp"></div><div id="portal_block_69" class="cl_block_bm block move-span"><div id="portal_block_69_content" class="dxb_bc"><li><em>02-20</em><a href="https://www.kekezyw.cn/post/192" title="【广告】大树团队全网站长推荐全网最稳定靠谱的项目" target="_blank"><font style="font-weight: 900;color: #0000FF;">【广告】大树团队全网站长推荐全网最稳定靠谱的项目</font></a></li><li><em>05-05</em><a href="https://www.zlzyw.com/?id=77" title="【广告】冰雪归来.长期搬砖扛米.日入100-200+" target="_blank"><font style="font-weight: 900;color: #FF0000;">【广告】冰雪归来.长期搬砖扛米.日入100-200+</font></a></li><li><em>05-18</em><a href="http://www.qian7fzw.xyz/" title="【广告】乾七辅助网 免费辅助 活动电报每天更新" target="_blank"><font style="font-weight: 900;color: #0000FF;">【广告】乾七辅助网 免费辅助 活动电报每天更新</font></a></li><li><em>06-11</em><a href="thread-1258372-1-1.html" title="（火）DOF师付辅助 拒绝收费" target="_blank">（火）DOF师付辅助 拒绝收费</a></li><li><em>06-11</em><a href="thread-1258371-1-1.html" title="求！！！剑侠风尘恋曲！！！！！" target="_blank">求！！！剑侠风尘恋曲！！！！！</a></li><li><em>06-11</em><a href="thread-1258369-1-1.html" title="枪神纪求个PVE本子" target="_blank">枪神纪求个PVE本子</a></li><li><em>06-11</em><a href="thread-1258367-1-1.html" title="网页短信测试带多开自动刷新功能" target="_blank">网页短信测试带多开自动刷新功能</a></li><li><em>06-11</em><a href="thread-1258366-1-1.html" title="1W短剧资源【福利】" target="_blank">1W短剧资源【福利】</a></li><li><em>06-11</em><a href="thread-1258365-1-1.html" title="单振+单透+多功能辅助v 6.11" target="_blank">单振+单透+多功能辅助v 6.11</a></li><li><em>06-11</em><a href="thread-1258364-1-1.html" title="影视影院-热播电影 热播电视剧高清流畅公益在线看" target="_blank">影视影院-热播电影 热播电视剧高清流畅公益在线看</a></li></div></div></div></div></div><!--[/diy]-->
-    </ul>
-  </div>
-  <div class="klp_tabslide swiper-slide" style="width: 588px; height: 285px;">
-    <ul>
-<!--[diy=klp_tab02]--><div id="klp_tab02" class="area"><div id="framefFooa9" class="cl_frame_bm frame move-span cl frame-1"><div id="framefFooa9_left" class="column frame-1-c"><div id="framefFooa9_left_temp" class="move-span temp"></div><div id="portal_block_70" class="cl_block_bm block move-span"><div id="portal_block_70_content" class="dxb_bc"><li><em>06-05</em><a href="thread-1257828-1-1.html" title="酷我音乐v10.8.2.1去广告破解豪华VIP版" target="_blank">酷我音乐v10.8.2.1去广告破解豪华VIP版</a></li><li><em>06-08</em><a href="thread-1258113-1-1.html" title="安卓手机游戏《植物大战僵尸杂交版2.0.88》[直装版]" target="_blank">安卓手机游戏《植物大战僵尸杂交版2.0.88》</a></li><li><em>06-05</em><a href="thread-1257830-1-1.html" title="橘子视频 Ver.5.0.9 多影视源 去广告版" target="_blank">橘子视频 Ver.5.0.9 多影视源 去广告版</a></li><li><em>06-05</em><a href="thread-1257827-1-1.html" title="抖音TikTok35.0.3最新解锁全球绿色版" target="_blank">抖音TikTok35.0.3最新解锁全球绿色版</a></li><li><em>06-05</em><a href="thread-1257806-1-1.html" title="鸣潮-PC端国服-国际服.无敌全图秒杀免费辅助 6.5" target="_blank">鸣潮-PC端国服-国际服.无敌全图秒杀免费辅</a></li><li><em>06-06</em><a href="thread-1257932-1-1.html" title="小草视频_5.0.9  去广告" target="_blank">小草视频_5.0.9  去广告</a></li><li><em>06-06</em><a href="thread-1257873-1-1.html" title="【2024年6月】网游单机全集合版本/整理版（过期不候）" target="_blank">【2024年6月】网游单机全集合版本/整理版（</a></li><li><em>06-11</em><a href="thread-1258337-1-1.html" title="新AI 这回不用你们自己换模型了" target="_blank">新AI 这回不用你们自己换模型了</a></li><li><em>06-08</em><a href="thread-1258070-1-1.html" title="内涵段子继承者—全网唯一专注于搞笑的短视频！皮皮虾" target="_blank">内涵段子继承者—全网唯一专注于搞笑的短视</a></li><li><em>06-07</em><a href="thread-1258003-1-1.html" title="DNFSF辅助" target="_blank">DNFSF辅助</a></li></div></div></div></div><div id="frameHsLxVZ" class="cl_frame_bm frame move-span cl frame-1"><div id="frameHsLxVZ_left" class="column frame-1-c"><div id="frameHsLxVZ_left_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
-    </ul>
-    	  </div>
-  <div class="klp_tabslide swiper-slide" style="width: 588px; height: 285px;">
-    <ul>
-<!--[diy=klp_tab03]--><div id="klp_tab03" class="area"><div id="frameedW3hP" class="cl_frame_bm frame move-span cl frame-1"><div id="frameedW3hP_left" class="column frame-1-c"><div id="frameedW3hP_left_temp" class="move-span temp"></div><div id="portal_block_71" class="cl_block_bm block move-span"><div id="portal_block_71_content" class="dxb_bc"><li><em>06-05</em><a href="thread-1257828-1-1.html" title="酷我音乐v10.8.2.1去广告破解豪华VIP版" target="_blank">酷我音乐v10.8.2.1去广告破解豪华VIP版</a></li><li><em>06-08</em><a href="thread-1258113-1-1.html" title="安卓手机游戏《植物大战僵尸杂交版2.0.88》[直装版]" target="_blank">安卓手机游戏《植物大战僵尸杂交版2.0.88》</a></li><li><em>06-05</em><a href="thread-1257830-1-1.html" title="橘子视频 Ver.5.0.9 多影视源 去广告版" target="_blank">橘子视频 Ver.5.0.9 多影视源 去广告版</a></li><li><em>06-05</em><a href="thread-1257827-1-1.html" title="抖音TikTok35.0.3最新解锁全球绿色版" target="_blank">抖音TikTok35.0.3最新解锁全球绿色版</a></li><li><em>06-05</em><a href="thread-1257806-1-1.html" title="鸣潮-PC端国服-国际服.无敌全图秒杀免费辅助 6.5" target="_blank">鸣潮-PC端国服-国际服.无敌全图秒杀免费辅</a></li><li><em>06-06</em><a href="thread-1257873-1-1.html" title="【2024年6月】网游单机全集合版本/整理版（过期不候）" target="_blank">【2024年6月】网游单机全集合版本/整理版（</a></li><li><em>06-06</em><a href="thread-1257932-1-1.html" title="小草视频_5.0.9  去广告" target="_blank">小草视频_5.0.9  去广告</a></li><li><em>06-08</em><a href="thread-1258070-1-1.html" title="内涵段子继承者—全网唯一专注于搞笑的短视频！皮皮虾" target="_blank">内涵段子继承者—全网唯一专注于搞笑的短视</a></li><li><em>06-11</em><a href="thread-1258337-1-1.html" title="新AI 这回不用你们自己换模型了" target="_blank">新AI 这回不用你们自己换模型了</a></li><li><em>06-07</em><a href="thread-1258003-1-1.html" title="DNFSF辅助" target="_blank">DNFSF辅助</a></li></div></div></div></div><div id="framejoIBMA" class="cl_frame_bm frame move-span cl frame-1"><div id="framejoIBMA_left" class="column frame-1-c"><div id="framejoIBMA_left_temp" class="move-span temp"></div></div></div></div><!--[/diy]-->
-    </ul>
-  </div>
-  </div>
-</div>
-</div>
-
-    <script type="text/javascript">
-
-    var tabsSwiper2 = new Swiper('.swiper-container009',{
-    speed:500,
-    onSlideChangeStart: function(){
-      jQuery(".tabs .active").removeClass('active')
-      jQuery(".tabs a").eq(tabsSwiper2.activeIndex).addClass('active')  
+    vec3 elrsn = sin(aEuler);
+    vec3 elrcs = cos(aEuler);
+    mat3 rotx = mat3(
+        1.0, 0.0, 0.0,
+        0.0, elrcs.x, elrsn.x,
+        0.0, -elrsn.x, elrcs.x
+    );
+    mat3 roty = mat3(
+        elrcs.y, 0.0, -elrsn.y,
+        0.0, 1.0, 0.0,
+        elrsn.y, 0.0, elrcs.y
+    );
+    mat3 rotz = mat3(
+        elrcs.z, elrsn.z, 0.0, 
+        -elrsn.z, elrcs.z, 0.0,
+        0.0, 0.0, 1.0
+    );
+    mat3 rotmat = rotx * roty * rotz;
+    normal = rotmat[2];
+    
+    mat3 trrotm = mat3(
+        rotmat[0][0], rotmat[1][0], rotmat[2][0],
+        rotmat[0][1], rotmat[1][1], rotmat[2][1],
+        rotmat[0][2], rotmat[1][2], rotmat[2][2]
+    );
+    normX = trrotm[0];
+    normY = trrotm[1];
+    normZ = trrotm[2];
+    
+    const vec3 lit = vec3(0.6917144638660746, 0.6917144638660746, -0.20751433915982237);
+    
+    float tmpdfs = dot(lit, normal);
+    if(tmpdfs < 0.0) {
+        normal = -normal;
+        tmpdfs = dot(lit, normal);
     }
-  })
-  jQuery(".tabs a").on('touchstart mousedown',function(e){
-    e.preventDefault()
-    jQuery(".tabs .active").removeClass('active')
-    jQuery(this).addClass('active')
-    tabsSwiper2.swipeTo( jQuery(this).index() )
-  })
-  jQuery(".tabs a").click(function(e){
-    e.preventDefault()
-  })
-</script>
-</div>
+    diffuse = 0.4 + tmpdfs;
+    
+    vec3 eyev = normalize(-pos.xyz);
+    if(dot(eyev, normal) > 0.0) {
+        vec3 hv = normalize(eyev + lit);
+        specular = pow(max(dot(hv, normal), 0.0), 20.0);
+    }
+    else {
+        specular = 0.0;
+    }
+    
+    rstop = clamp((abs(pdist - uDOF.x) - uDOF.y) / uDOF.z, 0.0, 1.0);
+    rstop = pow(rstop, 0.5);
+    //-0.69315 = ln(0.5)
+    distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
+}
+</script> 
+  <script id="sakura_point_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
 
-</div>
-<div class="klp_clear"></div>
+uniform vec3 uDOF;  //x:focus distance, y:focus radius, z:max radius
+uniform vec3 uFade; //x:start distance, y:half distance, z:near fade start
 
+const vec3 fadeCol = vec3(0.08, 0.03, 0.06);
 
+varying vec3 pposition;
+varying float psize;
+varying float palpha;
+varying float pdist;
 
+//varying mat3 rotMat;
+varying vec3 normX;
+varying vec3 normY;
+varying vec3 normZ;
+varying vec3 normal;
 
+varying float diffuse;
+varying float specular;
+varying float rstop;
+varying float distancefade;
 
-<div id="pt" class="bm cl">
-<div class="z">
-<a href="./" class="nvhm" title="首页">真牛论坛</a><em>»</em><a href="forum.php">论坛首页</a></div>
-<div class="z"></div>
-</div>
+float ellipse(vec2 p, vec2 o, vec2 r) {
+    vec2 lp = (p - o) / r;
+    return length(lp) - 1.0;
+}
 
+void main(void) {
+    vec3 p = vec3(gl_PointCoord - vec2(0.5, 0.5), 0.0) * 2.0;
+    vec3 d = vec3(0.0, 0.0, -1.0);
+    float nd = normZ.z; //dot(-normZ, d);
+    if(abs(nd) < 0.0001) discard;
+    
+    float np = dot(normZ, p);
+    vec3 tp = p + d * np / nd;
+    vec2 coord = vec2(dot(normX, tp), dot(normY, tp));
+    
+    //angle = 15 degree
+    const float flwrsn = 0.258819045102521;
+    const float flwrcs = 0.965925826289068;
+    mat2 flwrm = mat2(flwrcs, -flwrsn, flwrsn, flwrcs);
+    vec2 flwrp = vec2(abs(coord.x), coord.y) * flwrm;
+    
+    float r;
+    if(flwrp.x < 0.0) {
+        r = ellipse(flwrp, vec2(0.065, 0.024) * 0.5, vec2(0.36, 0.96) * 0.5);
+    }
+    else {
+        r = ellipse(flwrp, vec2(0.065, 0.024) * 0.5, vec2(0.58, 0.96) * 0.5);
+    }
+    
+    if(r > rstop) discard;
+    
+    vec3 col = mix(vec3(1.0, 0.8, 0.75), vec3(1.0, 0.9, 0.87), r);
+    float grady = mix(0.0, 1.0, pow(coord.y * 0.5 + 0.5, 0.35));
+    col *= vec3(1.0, grady, grady);
+    col *= mix(0.8, 1.0, pow(abs(coord.x), 0.3));
+    col = col * diffuse + specular;
+    
+    col = mix(fadeCol, col, distancefade);
+    
+    float alpha = (rstop > 0.001)? (0.5 - r / (rstop * 2.0)) : 1.0;
+    alpha = smoothstep(0.0, 1.0, alpha) * palpha;
+    
+    gl_FragColor = vec4(col * 0.5, alpha);
+}
+</script> 
+  <!-- effects --> 
+  <script id="fx_common_vsh" type="x-shader/x_vertex">
+uniform vec3 uResolution;
+attribute vec2 aPosition;
 
+varying vec2 texCoord;
+varying vec2 screenCoord;
 
-<style id="diy_style" type="text/css"></style>
+void main(void) {
+    gl_Position = vec4(aPosition, 0.0, 1.0);
+    texCoord = aPosition.xy * 0.5 + vec2(0.5, 0.5);
+    screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
+}
+</script> 
+  <script id="bg_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
 
-<div class="wp">
-<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
-</div>
+uniform vec2 uTimes;
 
-<div id="ct" class="wp cl">
-<div id="chart" class="bm bw0 cl">
-<p class="chart z">今日: <em>1075</em><span class="pipe">|</span>昨日: <em>6858</em><span class="pipe">|</span>帖子: <em>13290938</em><span class="pipe">|</span>会员: <em>353584</em><span class="pipe">|</span>欢迎新会员: <em><a href="space-username-xiewenbin.html" target="_blank" class="xi2">xiewenbin</a></em></p>
-<div class="y">
-<a href="forum.php?mod=guide&amp;view=new" title="最新回复" class="xi2">最新回复</a></div>
-</div>
-<!--[diy=diy_chart]--><div id="diy_chart" class="area"></div><!--[/diy]-->
-<div class="mn">
+varying vec2 texCoord;
+varying vec2 screenCoord;
 
+void main(void) {
+    vec3 col;
+    float c;
+    vec2 tmpv = texCoord * vec2(0.8, 1.0) - vec2(0.95, 1.0);
+    c = exp(-pow(length(tmpv) * 1.8, 2.0));
+    col = mix(vec3(0.02, 0.0, 0.03), vec3(0.96, 0.98, 1.0) * 1.5, c);
+    gl_FragColor = vec4(col * 0.5, 1.0);
+}
+</script> 
+  <script id="fx_brightbuf_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform vec2 uDelta;
 
-<div class="fl bm">
-<div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_1_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_1');">
-</span>
-<span class="y">分区版主: <a href="space-username-%B9%D9%B7%BD%CD%C5%B6%D3.html" class="notabs" c="1" mid="card_2363">官方团队</a>, <a href="space-username-biu.html" class="notabs" c="1" mid="card_7498">biu</a>, <a href="space-username-%D2%BB%B8%F6%C8%CB%B5%C4%B6%AC%BC%BE.html" class="notabs" c="1" mid="card_9929">一个人的冬季</a></span><h2><a href="forum.php?gid=1" style="">社区广场</a></h2>
-</div>
-<div id="category_1" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tbody><tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-50-1.html"><img src="data/attachment/common/c0/common_50_icon.png" align="left" alt="源码基地"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-50-1.html">源码基地</a></dt>
-<dd class="klp_threads"><em>主题: 2921</em><em class="forum_posts">帖数: <span title="114934">11万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1256174&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 23:51</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-52-1.html"><img src="data/attachment/common/9a/common_52_icon.jpg" align="left" alt="逆向软件"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-52-1.html">逆向软件</a><em class="xw0 xi1" title="今日"> (8)</em></dt>
-<dd class="klp_threads"><em>主题: 4197</em><em class="forum_posts">帖数: <span title="362102">36万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-53-1.html"><img src="data/attachment/common/d8/common_53_icon.png" align="left" alt="精品软件"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-53-1.html">精品软件</a><em class="xw0 xi1" title="今日"> (87)</em></dt>
-<dd class="klp_threads"><em>主题: <span title="12814">1万</span></em><em class="forum_posts">帖数: <span title="893656">89万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1255270&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 04:11</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-150-1.html"><img src="data/attachment/common/7e/common_150_icon.png" align="left" alt="手机软件"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-150-1.html" style="color: #0000FF;">手机软件</a><em class="xw0 xi1" title="今日"> (593)</em></dt>
-<dd class="klp_threads"><em>主题: <span title="32128">3万</span></em><em class="forum_posts">帖数: <span title="4285940">428万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1257613&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 04:09</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-137-1.html"><img src="data/attachment/common/39/common_137_icon.png" align="left" alt="手机游戏"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-137-1.html">手机游戏</a><em class="xw0 xi1" title="今日"> (84)</em></dt>
-<dd class="klp_threads"><em>主题: 9472</em><em class="forum_posts">帖数: <span title="795994">79万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=672524&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:55</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-251-1.html"><img src="data/attachment/common/19/common_251_icon.jpg" align="left" alt="资源杂烩"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-251-1.html">资源杂烩</a><em class="xw0 xi1" title="今日"> (53)</em></dt>
-<dd class="klp_threads"><em>主题: 3864</em><em class="forum_posts">帖数: <span title="752744">75万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-261-1.html"><img src="data/attachment/common/b1/common_261_icon.png" align="left" alt="技术教程"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-261-1.html">技术教程</a><em class="xw0 xi1" title="今日"> (12)</em></dt>
-<dd class="klp_threads"><em>主题: 1348</em><em class="forum_posts">帖数: <span title="153222">15万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1257211&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:17</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-255-1.html"><img src="data/attachment/common/fe/common_255_icon.png" align="left" alt="悬赏问答"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-255-1.html">悬赏问答</a><em class="xw0 xi1" title="今日"> (3)</em></dt>
-<dd class="klp_threads"><em>主题: 6394</em><em class="forum_posts">帖数: <span title="32765">3万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-139-1.html"><img src="data/attachment/common/e0/common_139_icon.jpg" align="left" alt="天天酷跑"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-139-1.html" style="color: #FF0000;">天天酷跑</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 1247</em><em class="forum_posts">帖数: <span title="56533">5万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258158&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 01:31</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-280-1.html"><img src="data/attachment/common/92/common_280_icon.png" align="left" alt="福利活动"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-280-1.html">福利活动</a><em class="xw0 xi1" title="今日"> (2)</em></dt>
-<dd class="klp_threads"><em>主题: 3260</em><em class="forum_posts">帖数: <span title="124954">12万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-278-1.html"><img src="data/attachment/common/07/common_278_icon.png" align="left" alt="IOS软件"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-278-1.html">IOS软件</a><em class="xw0 xi1" title="今日"> (12)</em></dt>
-<dd class="klp_threads"><em>主题: 459</em><em class="forum_posts">帖数: <span title="55289">5万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-279-1.html"><img src="data/attachment/common/d3/common_279_icon.png" align="left" alt="TV盒子"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-279-1.html">TV盒子</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 787</em><em class="forum_posts">帖数: <span title="81997">8万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258333&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:02</a>
-</dd>
-</dl>
-</td>
-</tr>
-</tbody></table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_6_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_6');">
-</span>
-<span class="y">分区版主: <a href="space-username-biu.html" class="notabs" c="1" mid="card_7498">biu</a></span><h2><a href="forum.php?gid=6" style="">火热网游</a></h2>
-</div>
-<div id="category_6" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tbody><tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-270-1.html"><img src="data/attachment/common/39/common_270_icon.jpg" align="left" alt="永劫无间"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-270-1.html" style="color: #FF0000;">永劫无间</a><em class="xw0 xi1" title="今日"> (17)</em></dt>
-<dd class="klp_threads"><em>主题: 1061</em><em class="forum_posts">帖数: <span title="47639">4万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258365&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:24</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-281-1.html"><img src="data/attachment/common/e3/common_281_icon.jpg" align="left" alt="无畏契约"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-281-1.html" style="color: #FF0000;">无畏契约</a><em class="xw0 xi1" title="今日"> (5)</em></dt>
-<dd class="klp_threads"><em>主题: 338</em><em class="forum_posts">帖数: <span title="17617">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1256261&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:59</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-258-1.html"><img src="data/attachment/common/50/common_258_icon.jpg" align="left" alt="和平精英"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-258-1.html" style="color: #FF0000;">和平精英</a><em class="xw0 xi1" title="今日"> (5)</em></dt>
-<dd class="klp_threads"><em>主题: 9126</em><em class="forum_posts">帖数: <span title="551085">55万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258150&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:59</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-9-1.html"><img src="data/attachment/common/45/common_9_icon.png" align="left" alt="DNF游戏"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-9-1.html">DNF游戏</a><em class="xw0 xi1" title="今日"> (18)</em></dt>
-<dd class="klp_threads"><em>主题: <span title="10564">1万</span></em><em class="forum_posts">帖数: <span title="158686">15万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258125&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:20</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-243-1.html"><img src="data/attachment/common/cb/common_243_icon.jpg" align="left" alt="PUBGMobile"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-243-1.html">PUBGMobile</a><em class="xw0 xi1" title="今日"> (2)</em></dt>
-<dd class="klp_threads"><em>主题: 8598</em><em class="forum_posts">帖数: <span title="490809">49万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258353&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 01:09</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-84-1.html"><img src="data/attachment/common/68/common_84_icon.jpg" align="left" alt="英雄联盟"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-84-1.html" style="color: #0000FF;">英雄联盟</a><em class="xw0 xi1" title="今日"> (14)</em></dt>
-<dd class="klp_threads"><em>主题: <span title="10810">1万</span></em><em class="forum_posts">帖数: <span title="405451">40万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1247065&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 04:10</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-8-1.html"><img src="data/attachment/common/c9/common_8_icon.png" align="left" alt="穿越火线"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-8-1.html" style="color: #0000FF;">穿越火线</a><em class="xw0 xi1" title="今日"> (5)</em></dt>
-<dd class="klp_threads"><em>主题: <span title="23516">2万</span></em><em class="forum_posts">帖数: <span title="418418">41万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258252&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:39</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-230-1.html"><img src="data/attachment/common/6d/common_230_icon.jpg" align="left" alt="守望先锋"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-230-1.html" style="color: #FF0000;">守望先锋</a></dt>
-<dd class="klp_threads"><em>主题: 1122</em><em class="forum_posts">帖数: <span title="50582">5万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1252354&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 20:49</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-257-1.html"><img src="data/attachment/common/d9/common_257_icon.jpg" align="left" alt="Apex英雄"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-257-1.html">Apex英雄</a><em class="xw0 xi1" title="今日"> (4)</em></dt>
-<dd class="klp_threads"><em>主题: 1792</em><em class="forum_posts">帖数: <span title="129434">12万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1254858&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:36</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-12-1.html"><img src="data/attachment/common/c2/common_12_icon.jpg" align="left" alt="QQ飞车"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-12-1.html">QQ飞车</a><em class="xw0 xi1" title="今日"> (3)</em></dt>
-<dd class="klp_threads"><em>主题: 4235</em><em class="forum_posts">帖数: <span title="58513">5万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1251155&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 00:54</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-125-1.html"><img src="data/attachment/common/3d/common_125_icon.jpg" align="left" alt="枪神纪"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-125-1.html">枪神纪</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 1655</em><em class="forum_posts">帖数: <span title="55931">5万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1257695&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 00:30</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-238-1.html"><img src="data/attachment/common/ac/common_238_icon.png" align="left" alt="绝地求生"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-238-1.html" style="color: #FF0000;">绝地求生</a><em class="xw0 xi1" title="今日"> (11)</em></dt>
-<dd class="klp_threads"><em>主题: 8833</em><em class="forum_posts">帖数: <span title="449356">44万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258337&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:49</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 50px;">
-<a href="forum-116-1.html"><img src="data/attachment/common/c4/common_116_icon.png" align="left" alt="逆战网游"></a></div>
-<dl style="margin-left: 50px;">
-<dt><a href="forum-116-1.html">逆战网游</a><em class="xw0 xi1" title="今日"> (5)</em></dt>
-<dd class="klp_threads"><em>主题: 4976</em><em class="forum_posts">帖数: <span title="93365">9万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1234490&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:18</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-235-1.html"><img src="data/attachment/common/57/common_235_icon.jpg" align="left" alt="GTA游戏"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-235-1.html">GTA游戏</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 1166</em><em class="forum_posts">帖数: <span title="87152">8万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1238146&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 01:21</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-231-1.html"><img src="data/attachment/common/9b/common_231_icon.png" align="left" alt="CS2科技"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-231-1.html" style="color: #0000FF;">CS2科技</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 4913</em><em class="forum_posts">帖数: <span title="282600">28万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258361&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:06</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-159-1.html"><img src="data/attachment/common/14/common_159_icon.png" align="left" alt="我的世界"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-159-1.html">我的世界</a></dt>
-<dd class="klp_threads"><em>主题: 746</em><em class="forum_posts">帖数: <span title="40834">4万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1132182&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 18:24</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-229-1.html"><img src="data/attachment/common/57/common_229_icon.jpg" align="left" alt="王者荣耀"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-229-1.html" style="color: #FF0000;">王者荣耀</a><em class="xw0 xi1" title="今日"> (16)</em></dt>
-<dd class="klp_threads"><em>主题: 5581</em><em class="forum_posts">帖数: <span title="422728">42万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258280&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:40</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-222-1.html"><img src="data/attachment/common/bc/common_222_icon.jpg" align="left" alt="CFM手游"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-222-1.html">CFM手游</a></dt>
-<dd class="klp_threads"><em>主题: 1557</em><em class="forum_posts">帖数: <span title="89639">8万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1254362&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 21:18</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-269-1.html"><img src="data/attachment/common/06/common_269_icon.jpg" align="left" alt="生死狙击"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-269-1.html">生死狙击</a></dt>
-<dd class="klp_threads"><em>主题: 848</em><em class="forum_posts">帖数: <span title="57224">5万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1143538&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 16:51</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-282-1.html"><img src="data/attachment/common/6a/common_282_icon.png" align="left" alt="高能英雄"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-282-1.html" style="color: #FF0000;">高能英雄</a></dt>
-<dd class="klp_threads"><em>主题: 99</em><em class="forum_posts">帖数: 9236</em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1256950&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 19:54</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-264-1.html"><img src="data/attachment/common/d6/common_264_icon.jpg" align="left" alt="原神网游"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-264-1.html" style="color: #FF0000;">原神网游</a><em class="xw0 xi1" title="今日"> (6)</em></dt>
-<dd class="klp_threads"><em>主题: 1671</em><em class="forum_posts">帖数: <span title="165266">16万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258284&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:56</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-266-1.html"><img src="data/attachment/common/f7/common_266_icon.jpg" align="left" alt="香肠派对"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-266-1.html">香肠派对</a><em class="xw0 xi1" title="今日"> (3)</em></dt>
-<dd class="klp_threads"><em>主题: 1600</em><em class="forum_posts">帖数: <span title="55765">5万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258151&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 01:02</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-274-1.html"><img src="data/attachment/common/d9/common_274_icon.jpg" align="left" alt="超凡先锋"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-274-1.html">超凡先锋</a></dt>
-<dd class="klp_threads"><em>主题: 442</em><em class="forum_posts">帖数: <span title="17248">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1257441&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 23:49</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-272-1.html"><img src="data/attachment/common/7a/common_272_icon.jpg" align="left" alt="未来之役"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-272-1.html" style="color: #FF0000;">未来之役</a></dt>
-<dd class="klp_threads"><em>主题: 392</em><em class="forum_posts">帖数: <span title="19483">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1257064&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 14:37</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-286-1.html"><img src="data/attachment/common/16/common_286_icon.jpg" align="left" alt="幻兽帕鲁"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-286-1.html" style="color: #FF0000;">幻兽帕鲁</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 153</em><em class="forum_posts">帖数: <span title="12864">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1247114&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:16</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-23-1.html"><img src="data/attachment/common/37/common_23_icon.png" align="left" alt="更多游戏"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-23-1.html" style="color: #0000FF;">更多游戏</a><em class="xw0 xi1" title="今日"> (12)</em></dt>
-<dd class="klp_threads"><em>主题: <span title="26431">2万</span></em><em class="forum_posts">帖数: <span title="615574">61万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1238329&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:00</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-265-1.html"><img src="data/attachment/common/e5/common_265_icon.jpg" align="left" alt="外服游戏"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-265-1.html">外服游戏</a><em class="xw0 xi1" title="今日"> (2)</em></dt>
-<dd class="klp_threads"><em>主题: 1448</em><em class="forum_posts">帖数: <span title="39283">3万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1222489&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 03:10</a>
-</dd>
-</dl>
-</td>
-</tr>
-</tbody></table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_29_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_29');">
-</span>
-<h2><a href="forum.php?gid=29" style="">QQ专区/其它游戏</a></h2>
-</div>
-<div id="category_29" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tbody><tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-277-1.html"><img src="data/attachment/common/20/common_277_icon.jpg" align="left" alt="羊了个羊"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-277-1.html" style="color: #FF0000;">羊了个羊</a></dt>
-<dd class="klp_threads"><em>主题: 125</em><em class="forum_posts">帖数: <span title="25485">2万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1202038&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 16:02</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-31-1.html"><img src="data/attachment/common/c1/common_31_icon.jpg" align="left" alt="QQ技术交流"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-31-1.html">QQ技术交流</a><em class="xw0 xi1" title="今日"> (1)</em></dt>
-<dd class="klp_threads"><em>主题: 5298</em><em class="forum_posts">帖数: <span title="102632">10万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-25-1.html"><img src="data/attachment/common/8e/common_25_icon.jpg" align="left" alt="CS1.5/1.6"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-25-1.html">CS1.5/1.6</a></dt>
-<dd class="klp_threads"><em>主题: 239</em><em class="forum_posts">帖数: <span title="10641">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1120749&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 00:53</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-26-1.html"><img src="data/attachment/common/4e/common_26_icon.jpg" align="left" alt="魔兽争霸"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-26-1.html">魔兽争霸</a></dt>
-<dd class="klp_threads"><em>主题: 387</em><em class="forum_posts">帖数: <span title="12580">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1253280&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 21:21</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-223-1.html"><img src="data/attachment/common/11/common_223_icon.png" align="left" alt="热门单机"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-223-1.html" style="color: #0000FF;">热门单机</a><em class="xw0 xi1" title="今日"> (54)</em></dt>
-<dd class="klp_threads"><em>主题: 6093</em><em class="forum_posts">帖数: <span title="341621">34万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1258219&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 04:11</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-267-1.html"><img src="data/attachment/common/ed/common_267_icon.jpg" align="left" alt="赛博朋克2077"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-267-1.html" style="color: #FF0000;">赛博朋克2077</a></dt>
-<dd class="klp_threads"><em>主题: 184</em><em class="forum_posts">帖数: <span title="14366">1万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1207695&amp;goto=lastpost#lastpost">最后发表: 2024-6-10 19:13</a>
-</dd>
-</dl>
-</td>
-</tr>
-<tr class="fl_row">
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-268-1.html"><img src="data/attachment/common/8f/common_268_icon.png" align="left" alt="使命召唤手游"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-268-1.html" style="color: #FF0000;">使命召唤手游</a></dt>
-<dd class="klp_threads"><em>主题: 814</em><em class="forum_posts">帖数: <span title="47416">4万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1254760&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 23:08</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-131-1.html"><img src="data/attachment/common/1a/common_131_icon.jpg" align="left" alt="使命召唤19"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-131-1.html" style="color: #FF0000;">使命召唤19</a></dt>
-<dd class="klp_threads"><em>主题: 1121</em><em class="forum_posts">帖数: <span title="31055">3万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1237610&amp;goto=lastpost#lastpost">最后发表: 2024-6-10 10:35</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-283-1.html"><img src="data/attachment/common/0f/common_283_icon.png" align="left" alt="精品游戏"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-283-1.html" style="color: #FF0000;">精品游戏</a><em class="xw0 xi1" title="今日"> (28)</em></dt>
-<dd class="klp_threads"><em>主题: 583</em><em class="forum_posts">帖数: <span title="74606">7万</span></em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-</tr>
-</tbody></table>
-</div>
-</div><div class="bm bmw  flg cl">
-<div class="bm_h cl">
-<span class="o">
-<img id="category_57_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_57');">
-</span>
-<span class="y">分区版主: <a href="space-username-%C3%B0%D1%CC%B5%C4%D7%F3%C2%D6.html" class="notabs" c="1" mid="card_1467">冒烟的左轮</a></span><h2><a href="forum.php?gid=57" style="">社区服务</a></h2>
-</div>
-<div id="category_57" class="bm_c" style="">
-<table cellspacing="0" cellpadding="0" class="fl_tb">
-<tbody><tr><td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-254-1.html"><img src="data/attachment/common/c5/common_254_icon.png" align="left" alt="综合讨论"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-254-1.html">综合讨论</a><em class="xw0 xi1" title="今日"> (4)</em></dt>
-<dd class="klp_threads"><em>主题: 2089</em><em class="forum_posts">帖数: <span title="66954">6万</span></em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1232646&amp;goto=lastpost#lastpost">最后发表: 2024-6-12 02:06</a>
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-59-1.html"><img src="data/attachment/common/09/common_59_icon.png" align="left" alt="社区事务"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-59-1.html">社区事务</a></dt>
-<dd class="klp_threads"><em>主题: 2127</em><em class="forum_posts">帖数: 8299</em></dd><dd class="viewthread_pr">
-私密版块
-</dd>
-</dl>
-</td>
-<td class="fl_g" width="32.9%">
-<div class="fl_icn_g" style="width: 48px;">
-<a href="forum-58-1.html"><img src="data/attachment/common/66/common_58_icon.jpg" align="left" alt="社区公告"></a></div>
-<dl style="margin-left: 48px;">
-<dt><a href="forum-58-1.html">社区公告</a></dt>
-<dd class="klp_threads"><em>主题: 285</em><em class="forum_posts">帖数: 3280</em></dd><dd class="viewthread_pr">
-<a href="forum.php?mod=redirect&amp;tid=1154377&amp;goto=lastpost#lastpost">最后发表: 2024-6-11 22:22</a>
-</dd>
-</dl>
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</div>
+varying vec2 texCoord;
+varying vec2 screenCoord;
 
-<div class="wp mtn">
-<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
-</div>
+void main(void) {
+    vec4 col = texture2D(uSrc, texCoord);
+    gl_FragColor = vec4(col.rgb * 2.0 - vec3(0.5), 1.0);
+}
+</script> 
+  <script id="fx_dirblur_r4_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform vec2 uDelta;
+uniform vec4 uBlurDir; //dir(x, y), stride(z, w)
 
-<div class="bm lk">
-<div id="category_lk" class="bm_c ptm">
-<ul class="x mbm cl">
-<li><a href="https://www.zhenniu.biz/" target="_blank" title="真牛永久地址">真牛永久地址</a></li><li><a href="https://www.52hb.com/" target="_blank" title="吾爱汇编论坛">吾爱汇编论坛</a></li><li><a href="https://www.jsdh8.com/" target="_blank" title="技术导航">技术导航</a></li><li><a href="http://www.6fzd.com" target="_blank" title="辅助岛论坛">辅助岛论坛</a></li><li><a href="https://www.678cn.com/" target="_blank" title="678辅助网">678辅助网</a></li><li><a href="https://www.xl1998.cn/" target="_blank" title="技术导航">技术导航</a></li><li><a href="https://zhendehvh.com/" target="_blank" title="贞德论坛">贞德论坛</a></li><li><a href="https://www.zn50.net/" target="_blank" title="最牛论坛">最牛论坛</a></li><li><a href="https://www.kjddg.com" target="_blank" title="科技岛资源">科技岛资源</a></li><li><a href="https://www.6665q.com/" target="_blank" title="灵歆论坛">灵歆论坛</a></li><li><a href="https://www.sxg678.cc" target="_blank" title="神仙谷">神仙谷</a></li><li><a href="https://www.xc6b.com" target="_blank" title="小超辅助网">小超辅助网</a></li><li><a href="https://www.cnucw.com/" target="_blank" title="菜鸟资源网">菜鸟资源网</a></li><li><a href="http://zn.yunmafu.cn" target="_blank" title="微商货源网">微商货源网</a></li><li><a href="https://www.akfzw.biz/" target="_blank" title="AK辅助网">AK辅助网</a></li><li><a href="https://www.qqhjy.top" target="_blank" title="QQ好基友">QQ好基友</a></li><li><a href="https://www.qiteba.net/" target="_blank" title="奇特吧资源">奇特吧资源</a></li><li><a href="https://jsjdhw.top/" target="_blank" title="聚收集导航">聚收集导航</a></li><li><a href="https://niuwa.mobi/" target="_blank" title="牛蛙资源网">牛蛙资源网</a></li><li><a href="https://www.0ixy.com/" target="_blank" title="小雨资源网">小雨资源网</a></li><li><a href="https://www.dubuzy.cc/" target="_blank" title="独步资源网">独步资源网</a></li><li><a href="https://www.xhfby.com/" target="_blank" title="小黑辅助网">小黑辅助网</a></li><li><a href="https://www.zn40.com/" target="_blank" title="VIP视频解析">VIP视频解析</a></li><li><a href="https://www.xiaoyanfz.xyz" target="_blank" title="小羊辅助网">小羊辅助网</a></li></ul>
-</div>
-</div>
+varying vec2 texCoord;
+varying vec2 screenCoord;
 
-</div>
+void main(void) {
+    vec4 col = texture2D(uSrc, texCoord);
+    col = col + texture2D(uSrc, texCoord + uBlurDir.xy * uDelta);
+    col = col + texture2D(uSrc, texCoord - uBlurDir.xy * uDelta);
+    col = col + texture2D(uSrc, texCoord + (uBlurDir.xy + uBlurDir.zw) * uDelta);
+    col = col + texture2D(uSrc, texCoord - (uBlurDir.xy + uBlurDir.zw) * uDelta);
+    gl_FragColor = col / 5.0;
+}
+</script> 
+  <!-- effect fragment shader template --> 
+  <script id="fx_common_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform vec2 uDelta;
 
-</div>
+varying vec2 texCoord;
+varying vec2 screenCoord;
 
-<script>fixed_top_nv();</script>
-</div>
+void main(void) {
+    gl_FragColor = texture2D(uSrc, texCoord);
+}
+</script> 
+  <!-- post processing --> 
+  <script id="pp_final_vsh" type="x-shader/x_vertex">
+uniform vec3 uResolution;
+attribute vec2 aPosition;
+varying vec2 texCoord;
+varying vec2 screenCoord;
+void main(void) {
+    gl_Position = vec4(aPosition, 0.0, 1.0);
+    texCoord = aPosition.xy * 0.5 + vec2(0.5, 0.5);
+    screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
+}
+</script> 
+  <script id="pp_final_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform sampler2D uBloom;
+uniform vec2 uDelta;
+varying vec2 texCoord;
+varying vec2 screenCoord;
+void main(void) {
+    vec4 srccol = texture2D(uSrc, texCoord) * 2.0;
+    vec4 bloomcol = texture2D(uBloom, texCoord);
+    vec4 col;
+    col = srccol + bloomcol * (vec4(1.0) + srccol);
+    col *= smoothstep(1.0, 0.0, pow(length((texCoord - vec2(0.5)) * 2.0), 1.2) * 0.5);
+    col = pow(col, vec4(0.45454545454545)); //(1.0 / 2.2)
+    
+    gl_FragColor = vec4(col.rgb, 1.0);
+    gl_FragColor.a = 1.0;
+}
+</script> 
+  <script>
+// Utilities
+var Vector3 = {};
+var Matrix44 = {};
+Vector3.create = function(x, y, z) {
+    return {'x':x, 'y':y, 'z':z};
+};
+Vector3.dot = function (v0, v1) {
+    return v0.x * v1.x + v0.y * v1.y + v0.z * v1.z;
+};
+Vector3.cross = function (v, v0, v1) {
+    v.x = v0.y * v1.z - v0.z * v1.y;
+    v.y = v0.z * v1.x - v0.x * v1.z;
+    v.z = v0.x * v1.y - v0.y * v1.x;
+};
+Vector3.normalize = function (v) {
+    var l = v.x * v.x + v.y * v.y + v.z * v.z;
+    if(l > 0.00001) {
+        l = 1.0 / Math.sqrt(l);
+        v.x *= l;
+        v.y *= l;
+        v.z *= l;
+    }
+};
+Vector3.arrayForm = function(v) {
+    if(v.array) {
+        v.array[0] = v.x;
+        v.array[1] = v.y;
+        v.array[2] = v.z;
+    }
+    else {
+        v.array = new Float32Array([v.x, v.y, v.z]);
+    }
+    return v.array;
+};
+Matrix44.createIdentity = function () {
+    return new Float32Array([1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]);
+};
+Matrix44.loadProjection = function (m, aspect, vdeg, near, far) {
+    var h = near * Math.tan(vdeg * Math.PI / 180.0 * 0.5) * 2.0;
+    var w = h * aspect;
+    
+    m[0] = 2.0 * near / w;
+    m[1] = 0.0;
+    m[2] = 0.0;
+    m[3] = 0.0;
+    
+    m[4] = 0.0;
+    m[5] = 2.0 * near / h;
+    m[6] = 0.0;
+    m[7] = 0.0;
+    
+    m[8] = 0.0;
+    m[9] = 0.0;
+    m[10] = -(far + near) / (far - near);
+    m[11] = -1.0;
+    
+    m[12] = 0.0;
+    m[13] = 0.0;
+    m[14] = -2.0 * far * near / (far - near);
+    m[15] = 0.0;
+};
+Matrix44.loadLookAt = function (m, vpos, vlook, vup) {
+    var frontv = Vector3.create(vpos.x - vlook.x, vpos.y - vlook.y, vpos.z - vlook.z);
+    Vector3.normalize(frontv);
+    var sidev = Vector3.create(1.0, 0.0, 0.0);
+    Vector3.cross(sidev, vup, frontv);
+    Vector3.normalize(sidev);
+    var topv = Vector3.create(1.0, 0.0, 0.0);
+    Vector3.cross(topv, frontv, sidev);
+    Vector3.normalize(topv);
+    
+    m[0] = sidev.x;
+    m[1] = topv.x;
+    m[2] = frontv.x;
+    m[3] = 0.0;
+    
+    m[4] = sidev.y;
+    m[5] = topv.y;
+    m[6] = frontv.y;
+    m[7] = 0.0;
+    
+    m[8] = sidev.z;
+    m[9] = topv.z;
+    m[10] = frontv.z;
+    m[11] = 0.0;
+    
+    m[12] = -(vpos.x * m[0] + vpos.y * m[4] + vpos.z * m[8]);
+    m[13] = -(vpos.x * m[1] + vpos.y * m[5] + vpos.z * m[9]);
+    m[14] = -(vpos.x * m[2] + vpos.y * m[6] + vpos.z * m[10]);
+    m[15] = 1.0;
+};
 
+//
+var timeInfo = {
+    'start':0, 'prev':0, // Date
+    'delta':0, 'elapsed':0 // Number(sec)
+};
 
+//
+var gl;
+var renderSpec = {
+    'width':0,
+    'height':0,
+    'aspect':1,
+    'array':new Float32Array(3),
+    'halfWidth':0,
+    'halfHeight':0,
+    'halfArray':new Float32Array(3)
+    // and some render targets. see setViewport()
+};
+renderSpec.setSize = function(w, h) {
+    renderSpec.width = w;
+    renderSpec.height = h;
+    renderSpec.aspect = renderSpec.width / renderSpec.height;
+    renderSpec.array[0] = renderSpec.width;
+    renderSpec.array[1] = renderSpec.height;
+    renderSpec.array[2] = renderSpec.aspect;
+    
+    renderSpec.halfWidth = Math.floor(w / 2);
+    renderSpec.halfHeight = Math.floor(h / 2);
+    renderSpec.halfArray[0] = renderSpec.halfWidth;
+    renderSpec.halfArray[1] = renderSpec.halfHeight;
+    renderSpec.halfArray[2] = renderSpec.halfWidth / renderSpec.halfHeight;
+};
 
+function deleteRenderTarget(rt) {
+    gl.deleteFramebuffer(rt.frameBuffer);
+    gl.deleteRenderbuffer(rt.renderBuffer);
+    gl.deleteTexture(rt.texture);
+}
 
-<div class="footer">
+function createRenderTarget(w, h) {
+    var ret = {
+        'width':w,
+        'height':h,
+        'sizeArray':new Float32Array([w, h, w / h]),
+        'dtxArray':new Float32Array([1.0 / w, 1.0 / h])
+    };
+    ret.frameBuffer = gl.createFramebuffer();
+    ret.renderBuffer = gl.createRenderbuffer();
+    ret.texture = gl.createTexture();
+    
+    gl.bindTexture(gl.TEXTURE_2D, ret.texture);
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, w, h, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    
+    gl.bindFramebuffer(gl.FRAMEBUFFER, ret.frameBuffer);
+    gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, ret.texture, 0);
+    
+    gl.bindRenderbuffer(gl.RENDERBUFFER, ret.renderBuffer);
+    gl.renderbufferStorage(gl.RENDERBUFFER, gl.DEPTH_COMPONENT16, w, h);
+    gl.framebufferRenderbuffer(gl.FRAMEBUFFER, gl.DEPTH_ATTACHMENT, gl.RENDERBUFFER, ret.renderBuffer);
+    
+    gl.bindTexture(gl.TEXTURE_2D, null);
+    gl.bindRenderbuffer(gl.RENDERBUFFER, null);
+    gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+    
+    return ret;
+}
 
-   
+function compileShader(shtype, shsrc) {
+	var retsh = gl.createShader(shtype);
+	
+	gl.shaderSource(retsh, shsrc);
+	gl.compileShader(retsh);
+	
+	if(!gl.getShaderParameter(retsh, gl.COMPILE_STATUS)) {
+		var errlog = gl.getShaderInfoLog(retsh);
+		gl.deleteShader(retsh);
+		console.error(errlog);
+		return null;
+	}
+	return retsh;
+}
 
-    <div class="wp" id="ft">
+function createShader(vtxsrc, frgsrc, uniformlist, attrlist) {
+    var vsh = compileShader(gl.VERTEX_SHADER, vtxsrc);
+    var fsh = compileShader(gl.FRAGMENT_SHADER, frgsrc);
+    
+    if(vsh == null || fsh == null) {
+        return null;
+    }
+    
+    var prog = gl.createProgram();
+    gl.attachShader(prog, vsh);
+    gl.attachShader(prog, fsh);
+    
+    gl.deleteShader(vsh);
+    gl.deleteShader(fsh);
+    
+    gl.linkProgram(prog);
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) {
+        var errlog = gl.getProgramInfoLog(prog);
+        console.error(errlog);
+        return null;
+    }
+    
+    if(uniformlist) {
+        prog.uniforms = {};
+        for(var i = 0; i < uniformlist.length; i++) {
+            prog.uniforms[uniformlist[i]] = gl.getUniformLocation(prog, uniformlist[i]);
+        }
+    }
+    
+    if(attrlist) {
+        prog.attributes = {};
+        for(var i = 0; i < attrlist.length; i++) {
+            var attr = attrlist[i];
+            prog.attributes[attr] = gl.getAttribLocation(prog, attr);
+        }
+    }
+    
+    return prog;
+}
 
+function useShader(prog) {
+    gl.useProgram(prog);
+    for(var attr in prog.attributes) {
+        gl.enableVertexAttribArray(prog.attributes[attr]);;
+    }
+}
 
+function unuseShader(prog) {
+    for(var attr in prog.attributes) {
+        gl.disableVertexAttribArray(prog.attributes[attr]);;
+    }
+    gl.useProgram(null);
+}
 
-  <div class="foot winner">
+/////
+var projection = {
+    'angle':60,
+    'nearfar':new Float32Array([0.1, 100.0]),
+    'matrix':Matrix44.createIdentity()
+};
+var camera = {
+    'position':Vector3.create(0, 0, 100),
+    'lookat':Vector3.create(0, 0, 0),
+    'up':Vector3.create(0, 1, 0),
+    'dof':Vector3.create(10.0, 4.0, 8.0),
+    'matrix':Matrix44.createIdentity()
+};
 
-<div class="copyright">
+var pointFlower = {};
+var meshFlower = {};
+var sceneStandBy = false;
 
-<p class="botnv"><a href="/thread-664378-1-1.html" target="_blank" style="font-weight: bold;color: red">广告位介绍</a><span class="pipe">|</span><a href="forum.php?mod=misc&amp;action=showdarkroom">小黑屋</a><span class="pipe">|</span><a href="/thread-1171814-1-1.html" target="_blank" style="color: blue">真牛地址更新页APP</a><span class="pipe">|</span></p>
+var BlossomParticle = function () {
+    this.velocity = new Array(3);
+    this.rotation = new Array(3);
+    this.position = new Array(3);
+    this.euler = new Array(3);
+    this.size = 1.0;
+    this.alpha = 1.0;
+    this.zkey = 0.0;
+};
 
-<p>  <span class="klp_mbrcl640"></span> </p>
+BlossomParticle.prototype.setVelocity = function (vx, vy, vz) {
+    this.velocity[0] = vx;
+    this.velocity[1] = vy;
+    this.velocity[2] = vz;
+};
 
-<p> <span class="klp_mbrcl380"></span> 本站资源来自互联网用户收集发布，如有侵权请邮件与我们联系处理。zhenniu50@qq.com</p>
+BlossomParticle.prototype.setRotation = function (rx, ry, rz) {
+    this.rotation[0] = rx;
+    this.rotation[1] = ry;
+    this.rotation[2] = rz;
+};
 
-  
+BlossomParticle.prototype.setPosition = function (nx, ny, nz) {
+    this.position[0] = nx;
+    this.position[1] = ny;
+    this.position[2] = nz;
+};
 
-  
+BlossomParticle.prototype.setEulerAngles = function (rx, ry, rz) {
+    this.euler[0] = rx;
+    this.euler[1] = ry;
+    this.euler[2] = rz;
+};
 
-</div>
+BlossomParticle.prototype.setSize = function (s) {
+    this.size = s;
+};
 
-<div id="footer_login" style="text-align:center;clear:both;font-size:14px;">
-Powered by <strong>Discuz!</strong> <em>X3.4</em>  © 2012-2024 Comsenz Inc.</div>
+BlossomParticle.prototype.update = function (dt, et) {
+    this.position[0] += this.velocity[0] * dt;
+    this.position[1] += this.velocity[1] * dt;
+    this.position[2] += this.velocity[2] * dt;
+    
+    this.euler[0] += this.rotation[0] * dt;
+    this.euler[1] += this.rotation[1] * dt;
+    this.euler[2] += this.rotation[2] * dt;
+};
 
-  </div>
+function createPointFlowers() {
+    // get point sizes
+    var prm = gl.getParameter(gl.ALIASED_POINT_SIZE_RANGE);
+    renderSpec.pointSize = {'min':prm[0], 'max':prm[1]};
+    
+    var vtxsrc = document.getElementById("sakura_point_vsh").textContent;
+    var frgsrc = document.getElementById("sakura_point_fsh").textContent;
+    
+    pointFlower.program = createShader(
+        vtxsrc, frgsrc,
+        ['uProjection', 'uModelview', 'uResolution', 'uOffset', 'uDOF', 'uFade'],
+        ['aPosition', 'aEuler', 'aMisc']
+    );
+    
+    useShader(pointFlower.program);
+    pointFlower.offset = new Float32Array([0.0, 0.0, 0.0]);
+    pointFlower.fader = Vector3.create(0.0, 10.0, 0.0);
+    
+    // paramerters: velocity[3], rotate[3]
+    pointFlower.numFlowers = 1600;
+    pointFlower.particles = new Array(pointFlower.numFlowers);
+    // vertex attributes {position[3], euler_xyz[3], size[1]}
+    pointFlower.dataArray = new Float32Array(pointFlower.numFlowers * (3 + 3 + 2));
+    pointFlower.positionArrayOffset = 0;
+    pointFlower.eulerArrayOffset = pointFlower.numFlowers * 3;
+    pointFlower.miscArrayOffset = pointFlower.numFlowers * 6;
+    
+    pointFlower.buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, pointFlower.buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, pointFlower.dataArray, gl.DYNAMIC_DRAW);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+    
+    unuseShader(pointFlower.program);
+    
+    for(var i = 0; i < pointFlower.numFlowers; i++) {
+        pointFlower.particles[i] = new BlossomParticle();
+    }
+}
 
+function initPointFlowers() {
+    //area
+    pointFlower.area = Vector3.create(20.0, 20.0, 20.0);
+    pointFlower.area.x = pointFlower.area.y * renderSpec.aspect;
+    
+    pointFlower.fader.x = 10.0; //env fade start
+    pointFlower.fader.y = pointFlower.area.z; //env fade half
+    pointFlower.fader.z = 0.1;  //near fade start
+    
+    //particles
+    var PI2 = Math.PI * 2.0;
+    var tmpv3 = Vector3.create(0, 0, 0);
+    var tmpv = 0;
+    var symmetryrand = function() {return (Math.random() * 2.0 - 1.0);};
+    for(var i = 0; i < pointFlower.numFlowers; i++) {
+        var tmpprtcl = pointFlower.particles[i];
+        
+        //velocity
+        tmpv3.x = symmetryrand() * 0.3 + 0.8;
+        tmpv3.y = symmetryrand() * 0.2 - 1.0;
+        tmpv3.z = symmetryrand() * 0.3 + 0.5;
+        Vector3.normalize(tmpv3);
+        tmpv = 2.0 + Math.random() * 1.0;
+        tmpprtcl.setVelocity(tmpv3.x * tmpv, tmpv3.y * tmpv, tmpv3.z * tmpv);
+        
+        //rotation
+        tmpprtcl.setRotation(
+            symmetryrand() * PI2 * 0.5,
+            symmetryrand() * PI2 * 0.5,
+            symmetryrand() * PI2 * 0.5
+        );
+        
+        //position
+        tmpprtcl.setPosition(
+            symmetryrand() * pointFlower.area.x,
+            symmetryrand() * pointFlower.area.y,
+            symmetryrand() * pointFlower.area.z
+        );
+        
+        //euler
+        tmpprtcl.setEulerAngles(
+            Math.random() * Math.PI * 2.0,
+            Math.random() * Math.PI * 2.0,
+            Math.random() * Math.PI * 2.0
+        );
+        
+        //size
+        tmpprtcl.setSize(0.9 + Math.random() * 0.1);
+    }
+}
 
+function renderPointFlowers() {
+    //update
+    var PI2 = Math.PI * 2.0;
+    var limit = [pointFlower.area.x, pointFlower.area.y, pointFlower.area.z];
+    var repeatPos = function (prt, cmp, limit) {
+        if(Math.abs(prt.position[cmp]) - prt.size * 0.5 > limit) {
+            //out of area
+            if(prt.position[cmp] > 0) {
+                prt.position[cmp] -= limit * 2.0;
+            }
+            else {
+                prt.position[cmp] += limit * 2.0;
+            }
+        }
+    };
+    var repeatEuler = function (prt, cmp) {
+        prt.euler[cmp] = prt.euler[cmp] % PI2;
+        if(prt.euler[cmp] < 0.0) {
+            prt.euler[cmp] += PI2;
+        }
+    };
+    
+    for(var i = 0; i < pointFlower.numFlowers; i++) {
+        var prtcl = pointFlower.particles[i];
+        prtcl.update(timeInfo.delta, timeInfo.elapsed);
+        repeatPos(prtcl, 0, pointFlower.area.x);
+        repeatPos(prtcl, 1, pointFlower.area.y);
+        repeatPos(prtcl, 2, pointFlower.area.z);
+        repeatEuler(prtcl, 0);
+        repeatEuler(prtcl, 1);
+        repeatEuler(prtcl, 2);
+        
+        prtcl.alpha = 1.0;//(pointFlower.area.z - prtcl.position[2]) * 0.5;
+        
+        prtcl.zkey = (camera.matrix[2] * prtcl.position[0]
+                    + camera.matrix[6] * prtcl.position[1]
+                    + camera.matrix[10] * prtcl.position[2]
+                    + camera.matrix[14]);
+    }
+    
+    // sort
+    pointFlower.particles.sort(function(p0, p1){return p0.zkey - p1.zkey;});
+    
+    // update data
+    var ipos = pointFlower.positionArrayOffset;
+    var ieuler = pointFlower.eulerArrayOffset;
+    var imisc = pointFlower.miscArrayOffset;
+    for(var i = 0; i < pointFlower.numFlowers; i++) {
+        var prtcl = pointFlower.particles[i];
+        pointFlower.dataArray[ipos] = prtcl.position[0];
+        pointFlower.dataArray[ipos + 1] = prtcl.position[1];
+        pointFlower.dataArray[ipos + 2] = prtcl.position[2];
+        ipos += 3;
+        pointFlower.dataArray[ieuler] = prtcl.euler[0];
+        pointFlower.dataArray[ieuler + 1] = prtcl.euler[1];
+        pointFlower.dataArray[ieuler + 2] = prtcl.euler[2];
+        ieuler += 3;
+        pointFlower.dataArray[imisc] = prtcl.size;
+        pointFlower.dataArray[imisc + 1] = prtcl.alpha;
+        imisc += 2;
+    }
+    
+    //draw
+    gl.enable(gl.BLEND);
+    //gl.disable(gl.DEPTH_TEST);
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+    
+    var prog = pointFlower.program;
+    useShader(prog);
+    
+    gl.uniformMatrix4fv(prog.uniforms.uProjection, false, projection.matrix);
+    gl.uniformMatrix4fv(prog.uniforms.uModelview, false, camera.matrix);
+    gl.uniform3fv(prog.uniforms.uResolution, renderSpec.array);
+    gl.uniform3fv(prog.uniforms.uDOF, Vector3.arrayForm(camera.dof));
+    gl.uniform3fv(prog.uniforms.uFade, Vector3.arrayForm(pointFlower.fader));
+    
+    gl.bindBuffer(gl.ARRAY_BUFFER, pointFlower.buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, pointFlower.dataArray, gl.DYNAMIC_DRAW);
+    
+    gl.vertexAttribPointer(prog.attributes.aPosition, 3, gl.FLOAT, false, 0, pointFlower.positionArrayOffset * Float32Array.BYTES_PER_ELEMENT);
+    gl.vertexAttribPointer(prog.attributes.aEuler, 3, gl.FLOAT, false, 0, pointFlower.eulerArrayOffset * Float32Array.BYTES_PER_ELEMENT);
+    gl.vertexAttribPointer(prog.attributes.aMisc, 2, gl.FLOAT, false, 0, pointFlower.miscArrayOffset * Float32Array.BYTES_PER_ELEMENT);
+    
+    // doubler
+    for(var i = 1; i < 2; i++) {
+        var zpos = i * -2.0;
+        pointFlower.offset[0] = pointFlower.area.x * -1.0;
+        pointFlower.offset[1] = pointFlower.area.y * -1.0;
+        pointFlower.offset[2] = pointFlower.area.z * zpos;
+        gl.uniform3fv(prog.uniforms.uOffset, pointFlower.offset);
+        gl.drawArrays(gl.POINT, 0, pointFlower.numFlowers);
+        
+        pointFlower.offset[0] = pointFlower.area.x * -1.0;
+        pointFlower.offset[1] = pointFlower.area.y *  1.0;
+        pointFlower.offset[2] = pointFlower.area.z * zpos;
+        gl.uniform3fv(prog.uniforms.uOffset, pointFlower.offset);
+        gl.drawArrays(gl.POINT, 0, pointFlower.numFlowers);
+        
+        pointFlower.offset[0] = pointFlower.area.x *  1.0;
+        pointFlower.offset[1] = pointFlower.area.y * -1.0;
+        pointFlower.offset[2] = pointFlower.area.z * zpos;
+        gl.uniform3fv(prog.uniforms.uOffset, pointFlower.offset);
+        gl.drawArrays(gl.POINT, 0, pointFlower.numFlowers);
+        
+        pointFlower.offset[0] = pointFlower.area.x *  1.0;
+        pointFlower.offset[1] = pointFlower.area.y *  1.0;
+        pointFlower.offset[2] = pointFlower.area.z * zpos;
+        gl.uniform3fv(prog.uniforms.uOffset, pointFlower.offset);
+        gl.drawArrays(gl.POINT, 0, pointFlower.numFlowers);
+    }
+    
+    //main
+    pointFlower.offset[0] = 0.0;
+    pointFlower.offset[1] = 0.0;
+    pointFlower.offset[2] = 0.0;
+    gl.uniform3fv(prog.uniforms.uOffset, pointFlower.offset);
+    gl.drawArrays(gl.POINT, 0, pointFlower.numFlowers);
+    
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+    unuseShader(prog);
+    
+    gl.enable(gl.DEPTH_TEST);
+    gl.disable(gl.BLEND);
+}
 
+// effects
+//common util
+function createEffectProgram(vtxsrc, frgsrc, exunifs, exattrs) {
+    var ret = {};
+    var unifs = ['uResolution', 'uSrc', 'uDelta'];
+    if(exunifs) {
+        unifs = unifs.concat(exunifs);
+    }
+    var attrs = ['aPosition'];
+    if(exattrs) {
+        attrs = attrs.concat(exattrs);
+    }
+    
+    ret.program = createShader(vtxsrc, frgsrc, unifs, attrs);
+    useShader(ret.program);
+    
+    ret.dataArray = new Float32Array([
+        -1.0, -1.0,
+         1.0, -1.0,
+        -1.0,  1.0,
+         1.0,  1.0
+    ]);
+    ret.buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, ret.buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, ret.dataArray, gl.STATIC_DRAW);
+    
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+    unuseShader(ret.program);
+    
+    return ret;
+}
 
+// basic usage
+// useEffect(prog, srctex({'texture':texid, 'dtxArray':(f32)[dtx, dty]})); //basic initialize
+// gl.uniform**(...); //additional uniforms
+// drawEffect()
+// unuseEffect(prog)
+// TEXTURE0 makes src
+function useEffect(fxobj, srctex) {
+    var prog = fxobj.program;
+    useShader(prog);
+    gl.uniform3fv(prog.uniforms.uResolution, renderSpec.array);
+    
+    if(srctex != null) {
+        gl.uniform2fv(prog.uniforms.uDelta, srctex.dtxArray);
+        gl.uniform1i(prog.uniforms.uSrc, 0);
+        
+        gl.activeTexture(gl.TEXTURE0);
+        gl.bindTexture(gl.TEXTURE_2D, srctex.texture);
+    }
+}
+function drawEffect(fxobj) {
+    gl.bindBuffer(gl.ARRAY_BUFFER, fxobj.buffer);
+    gl.vertexAttribPointer(fxobj.program.attributes.aPosition, 2, gl.FLOAT, false, 0, 0);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+}
+function unuseEffect(fxobj) {
+    unuseShader(fxobj.program);
+}
 
+var effectLib = {};
+function createEffectLib() {
+    
+    var vtxsrc, frgsrc;
+    //common
+    var cmnvtxsrc = document.getElementById("fx_common_vsh").textContent;
+    
+    //background
+    frgsrc = document.getElementById("bg_fsh").textContent;
+    effectLib.sceneBg = createEffectProgram(cmnvtxsrc, frgsrc, ['uTimes'], null);
+    
+    // make brightpixels buffer
+    frgsrc = document.getElementById("fx_brightbuf_fsh").textContent;
+    effectLib.mkBrightBuf = createEffectProgram(cmnvtxsrc, frgsrc, null, null);
+    
+    // direction blur
+    frgsrc = document.getElementById("fx_dirblur_r4_fsh").textContent;
+    effectLib.dirBlur = createEffectProgram(cmnvtxsrc, frgsrc, ['uBlurDir'], null);
+    
+    //final composite
+    vtxsrc = document.getElementById("pp_final_vsh").textContent;
+    frgsrc = document.getElementById("pp_final_fsh").textContent;
+    effectLib.finalComp = createEffectProgram(vtxsrc, frgsrc, ['uBloom'], null);
+}
+
+// background
+function createBackground() {
+    //console.log("create background");
+}
+function initBackground() {
+    //console.log("init background");
+}
+function renderBackground() {
+    gl.disable(gl.DEPTH_TEST);
+    
+    useEffect(effectLib.sceneBg, null);
+    gl.uniform2f(effectLib.sceneBg.program.uniforms.uTimes, timeInfo.elapsed, timeInfo.delta);
+    drawEffect(effectLib.sceneBg);
+    unuseEffect(effectLib.sceneBg);
+    
+    gl.enable(gl.DEPTH_TEST);
+}
+
+// post process
+var postProcess = {};
+function createPostProcess() {
+    //console.log("create post process");
+}
+function initPostProcess() {
+    //console.log("init post process");
+}
+
+function renderPostProcess() {
+    gl.enable(gl.TEXTURE_2D);
+    gl.disable(gl.DEPTH_TEST);
+    var bindRT = function (rt, isclear) {
+        gl.bindFramebuffer(gl.FRAMEBUFFER, rt.frameBuffer);
+        gl.viewport(0, 0, rt.width, rt.height);
+        if(isclear) {
+            gl.clearColor(0, 0, 0, 0);
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+        }
+    };
+    
+    //make bright buff
+    bindRT(renderSpec.wHalfRT0, true);
+    useEffect(effectLib.mkBrightBuf, renderSpec.mainRT);
+    drawEffect(effectLib.mkBrightBuf);
+    unuseEffect(effectLib.mkBrightBuf);
+    
+    // make bloom
+    for(var i = 0; i < 2; i++) {
+        var p = 1.5 + 1 * i;
+        var s = 2.0 + 1 * i;
+        bindRT(renderSpec.wHalfRT1, true);
+        useEffect(effectLib.dirBlur, renderSpec.wHalfRT0);
+        gl.uniform4f(effectLib.dirBlur.program.uniforms.uBlurDir, p, 0.0, s, 0.0);
+        drawEffect(effectLib.dirBlur);
+        unuseEffect(effectLib.dirBlur);
+        
+        bindRT(renderSpec.wHalfRT0, true);
+        useEffect(effectLib.dirBlur, renderSpec.wHalfRT1);
+        gl.uniform4f(effectLib.dirBlur.program.uniforms.uBlurDir, 0.0, p, 0.0, s);
+        drawEffect(effectLib.dirBlur);
+        unuseEffect(effectLib.dirBlur);
+    }
+    
+    //display
+    gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+    gl.viewport(0, 0, renderSpec.width, renderSpec.height);
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    
+    useEffect(effectLib.finalComp, renderSpec.mainRT);
+    gl.uniform1i(effectLib.finalComp.program.uniforms.uBloom, 1);
+    gl.activeTexture(gl.TEXTURE1);
+    gl.bindTexture(gl.TEXTURE_2D, renderSpec.wHalfRT0.texture);
+    drawEffect(effectLib.finalComp);
+    unuseEffect(effectLib.finalComp);
+    
+    gl.enable(gl.DEPTH_TEST);
+}
+
+/////
+var SceneEnv = {};
+function createScene() {
+    createEffectLib();
+    createBackground();
+    createPointFlowers();
+    createPostProcess();
+    sceneStandBy = true;
+}
+
+function initScene() {
+    initBackground();
+    initPointFlowers();
+    initPostProcess();
+    
+    //camera.position.z = 17.320508;
+    camera.position.z = pointFlower.area.z + projection.nearfar[0];
+    projection.angle = Math.atan2(pointFlower.area.y, camera.position.z + pointFlower.area.z) * 180.0 / Math.PI * 2.0;
+    Matrix44.loadProjection(projection.matrix, renderSpec.aspect, projection.angle, projection.nearfar[0], projection.nearfar[1]);
+}
+
+function renderScene() {
+    //draw
+    Matrix44.loadLookAt(camera.matrix, camera.position, camera.lookat, camera.up);
+    
+    gl.enable(gl.DEPTH_TEST);
+    
+    //gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+    gl.bindFramebuffer(gl.FRAMEBUFFER, renderSpec.mainRT.frameBuffer);
+    gl.viewport(0, 0, renderSpec.mainRT.width, renderSpec.mainRT.height);
+    gl.clearColor(0.005, 0, 0.05, 0);
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    
+    renderBackground();
+    renderPointFlowers();
+    renderPostProcess();
+}
+
+/////
+function onResize(e) {
+    makeCanvasFullScreen(document.getElementById("sakura"));
+    setViewports();
+    if(sceneStandBy) {
+        initScene();
+    }
+}
+
+function setViewports() {
+    renderSpec.setSize(gl.canvas.width, gl.canvas.height);
+    
+    gl.clearColor(0.2, 0.2, 0.5, 1.0);
+    gl.viewport(0, 0, renderSpec.width, renderSpec.height);
+    
+    var rtfunc = function (rtname, rtw, rth) {
+        var rt = renderSpec[rtname];
+        if(rt) deleteRenderTarget(rt);
+        renderSpec[rtname] = createRenderTarget(rtw, rth);
+    };
+    rtfunc('mainRT', renderSpec.width, renderSpec.height);
+    rtfunc('wFullRT0', renderSpec.width, renderSpec.height);
+    rtfunc('wFullRT1', renderSpec.width, renderSpec.height);
+    rtfunc('wHalfRT0', renderSpec.halfWidth, renderSpec.halfHeight);
+    rtfunc('wHalfRT1', renderSpec.halfWidth, renderSpec.halfHeight);
+}
+
+function render() {
+    renderScene();
+}
+
+var animating = true;
+function toggleAnimation(elm) {
+    animating ^= true;
+    if(animating) animate();
+    if(elm) {
+        elm.innerHTML = animating? "Stop":"Start";
+    }
+}
+
+function stepAnimation() {
+    if(!animating) animate();
+}
+
+function animate() {
+    var curdate = new Date();
+    timeInfo.elapsed = (curdate - timeInfo.start) / 1000.0;
+    timeInfo.delta = (curdate - timeInfo.prev) / 1000.0;
+    timeInfo.prev = curdate;
+    
+    if(animating) requestAnimationFrame(animate);
+    render();
+}
+
+function makeCanvasFullScreen(canvas) {
+    var b = document.body;
+	var d = document.documentElement;
+	fullw = Math.max(b.clientWidth , b.scrollWidth, d.scrollWidth, d.clientWidth);
+	fullh = Math.max(b.clientHeight , b.scrollHeight, d.scrollHeight, d.clientHeight);
+	canvas.width = fullw;
+	canvas.height = fullh;
+}
+
+window.addEventListener('load', function(e) {
+    var canvas = document.getElementById("sakura");
+    try {
+        makeCanvasFullScreen(canvas);
+        gl = canvas.getContext('experimental-webgl');
+    } catch(e) {
+        alert("WebGL not supported." + e);
+        console.error(e);
+        return;
+    }
+    
+    window.addEventListener('resize', onResize);
+    
+    setViewports();
+    createScene();
+    initScene();
+    
+    timeInfo.start = new Date();
+    timeInfo.prev = timeInfo.start;
+    animate();
+});
+
+//set window.requestAnimationFrame
+(function (w, r) {
+    w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
+})(window, 'equestAnimationFrame');
+</script>  
  
- </div>
-
-</div>
-
-
-
-
-
-
-
-<div id="klp_ftnv003" style="display: none;">
-
-  <ul>
-
- <!--平板或者手机浏览下的底部菜单修改,只修改文字和链接-->
-<li class=""><a href="portal.php"><em class="klp_font klp-shouye"></em><p>首页</p></a></li>
-<li><a href="forum.php"><em class="klp_font klp-taolun"></em><p>论坛</p></a></li>
-<li><a href="member.php?mod=logging&amp;action=login"><em class="klp_font klp-huiyuan"></em><p>登录</p></a></li> 
-<li><a href="member.php?mod=logging&amp;action=login"><em class="klp_font klp-fabiao"></em><p>发布</p></a></li>
-<li id="end"><a href=""><em class="klp_font klp-fnews"></em><p>资讯</p></a><span></span></li>  </ul>
-
-</div>
-
-
-<script src="home.php?mod=misc&amp;ac=sendmail&amp;rand=1718136744" type="text/javascript"></script>
-
-
-
-
-<div id="scrolltop" style="left: auto; right: 0px; visibility: hidden;">
-
-
-<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa"><b>返回顶部</b></a></span>
-
-<span hidefocus="true"><a id="klp_tool040_wx" href="javascript:;" onmouseover="showMenu({'ctrlid':this.id,'pos':'41!','ctrlclass':'on','duration':2});"></a></span>
-
-<span hidefocus="true">   <a id="klp_tool040_app" href="javascript:;" onmouseover="showMenu({'ctrlid':this.id,'pos':'41!','ctrlclass':'on','duration':2});"></a></span>
-
-
-</div>
-
-<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
-
-
-<script src="template/klp_zhengfu012/klp_img/js/zsy.js?Otv" type="text/javascript"></script>
-
-
-
-</body>
+</body></html>
